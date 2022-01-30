@@ -38,7 +38,7 @@ html{
     padding-top: 2vh; 
     padding-right: 2vw;
     font-size: 25px; 
-    margin-left: 2vw;   
+   
 
 }
 
@@ -163,6 +163,7 @@ outline-offset: 15px;
     position: absolute;
     left: 8%;
     top: 128%;
+
 }   
 .circle1
 {
@@ -176,15 +177,15 @@ outline-offset: 15px;
     top:164%;
 }
 .texty{
-    padding-left: 4vw ;
-    padding-top:17vh;
+    padding-left: 5vw ;
+    padding-top:11vh;
     font-size: 20px;
 }
 
 .SOCIALICONS{
     display: flex;
     gap: 3vw;
-    padding-left: 4vw ;
+    padding-left: 5vw ;
     padding-top: 2vh;
     font-size: 28px;
     color: #242323;
@@ -252,6 +253,7 @@ outline-offset: 15px;
     margin-right: 19vw;
     margin-top: 12vh;
     padding-top: 2vh;
+    width: 170px;
     background: #703EFD;
     border: 0.775018px solid #000000;
     box-sizing: border-box;
@@ -305,7 +307,7 @@ outline-offset: 15px;
   height: 28vw;
   width: 25vw;
   border-radius: 11.6253px;
-  top: 219vh;
+  top: 216vh;
   left: 37vw;
    
 }
@@ -336,7 +338,7 @@ outline-offset: 15px;
     height: 28vw;
     width: 25vw;
     border-radius: 11.6253px;
-    top: 219vh;
+    top: 216vh;
     left: 7vw;
 }
 .image2:hover img {
@@ -366,7 +368,7 @@ outline-offset: 15px;
     height: 28vw;
     width: 25vw;
     border-radius: 11.6253px;
-    top: 219vh;
+    top: 216vh;
     left: 67vw;
 }
 .image3:hover img {
@@ -394,19 +396,10 @@ outline-offset: 15px;
    display: flex;
    padding-top: 65vh;
    font-size: 32px;
-   
+   justify-content: center;
    color: #E6E6E6;
 }
-.title1{
-    padding-left: 5.5vw;
-   
-}
-.title2{
-   padding-left: 4vw;
-}
-.title3{
-    padding-left: 3.5vw;
-}
+
 .sub1,.sub2,.sub3{
     font-size: 22px;
     padding-top: 2vh;
@@ -503,7 +496,7 @@ outline-offset: 15px;
  .subtexta,.subtextb,.subtextc{
 
     font-size: 22px;
-    padding-top: 1vh;
+    padding-top: 4vh;
     padding-left: 13vw;
     color: #ffbb00;
   
@@ -535,7 +528,7 @@ opacity: 0.5;
  
     align-items: center;
     padding-left:  15vw;
-    padding-top: 10vh ;
+    padding-top: 5vh ;
   }
   
   .contact .name input {
@@ -585,6 +578,7 @@ line-height: 28px;
     line-height: 28px;
     padding-left:2vw;
     padding-top: 2vh;
+    border: none;
 
 }
  .contact .subject input{
@@ -640,6 +634,7 @@ line-height: 28px;
      padding-top: 0.1vh;
      height: 90vh;
      opacity: 0.5;
+     z-index: -1;
 }
 .footer {
     background-color: rgb(97, 96, 97);
